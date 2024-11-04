@@ -2,9 +2,9 @@
   "name": "bookscout",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node server/dist/server.js",
+    "start": "node server/server.js",
     "develop": "concurrently \"npm run server:watch\" \"npm run client\"",
     "install": "cd server && npm install && cd ../client && npm install",
     "build": "concurrently \"npm run server:build\" \"npm run client:build\"",
