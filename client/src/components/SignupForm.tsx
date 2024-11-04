@@ -54,8 +54,8 @@ const SignupForm = ({ handleModalClose }: SignupFormProps) => {
         variables: { input: { ...userFormData } },
       });
 
-      if (data?.createUser?.token) {
-        Auth.login(data.createUser.token);
+      if (data?.addUser?.token) {
+        Auth.login(data.addUser.token);
         handleModalClose();
       }
     } catch (err) {

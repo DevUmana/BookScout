@@ -20,6 +20,7 @@ export const authenticateToken = ({ req }: any) => {
     });
     req.user = data;
   } catch (err) {
+    console.log(err);
     console.log("Invalid token");
   }
 
