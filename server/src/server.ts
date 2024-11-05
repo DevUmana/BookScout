@@ -33,7 +33,7 @@ const startApolloServer = async () => {
   );
 
   // if we're in production, serve client/build as static assets
-  if (process.env.NODE_ENV === "production") {
+  if (process.env.NODE_ENV === "productionTest") {
     console.log("Running in production!");
     console.log(path.join(__dirname, "../../client/dist"));
     app.use(express.static(path.join(__dirname, "../../client/dist")));
