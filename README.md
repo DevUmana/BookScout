@@ -27,6 +27,11 @@
 - Application Site [Render BookScout](https://bookscout-k6vp.onrender.com/)
 - Application Walkthrough [BookScout Walkthrough](https://drive.google.com/file/d/1GZS83JLBRpNByVr2UFyVYkWdKfrewVoc/view)
 
+<img width="1779" alt="Screenshot 2024-11-05 at 6 49 08 PM" src="https://github.com/user-attachments/assets/464e234e-81d7-4894-b82e-8fe400cb32aa">
+
+<img width="1505" alt="Screenshot 2024-11-05 at 6 49 51 PM" src="https://github.com/user-attachments/assets/18f9950e-e132-4c15-a1dd-b4dd3db577fe">
+
+
 ## License
 
 MIT License
