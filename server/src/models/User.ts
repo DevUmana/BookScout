@@ -1,4 +1,5 @@
 import { Schema, model, type Document } from "mongoose";
+// @ts-ignore
 import bcrypt from "bcrypt";
 
 // import schema from Book.js
