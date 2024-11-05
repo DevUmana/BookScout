@@ -1,3 +1,4 @@
+// @ts-ignore
 import jwt from "jsonwebtoken";
 import { GraphQLError } from "graphql";
 import dotenv from "dotenv";
