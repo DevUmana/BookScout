@@ -1,9 +1,13 @@
 import dotenv from "dotenv";
-dotenv.config({ path: "../.env" });
+dotenv.config();
+console.log(dotenv.config());
 
 import mongoose from "mongoose";
 
 const MONGODBURI = process.env.MONGODB_URI;
+
+console.log("MONGODB_URI", process.env.MONGODB_URI);
+console.log("MONGODBURI", MONGODBURI);
 
 if (!MONGODBURI) {
   console.error("Error: MONGODB_URI is not defined in .env file.");
